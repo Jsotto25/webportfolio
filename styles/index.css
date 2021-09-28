@@ -1,0 +1,272 @@
+*{
+	font-family: 'Kanit', sans-serif;
+}
+
+body{
+	background-color: white;
+}
+
+section{
+	padding: 100px 20vw;
+}
+
+
+/* navbar */
+.menu-bar .navbar {
+	background-color: #8b0000;
+}
+.nav-link {
+	text-shadow: 2px 2px black !important;
+	font-size: 16px;
+	margin:0 30px;
+	color: #fff !important;
+	font-weight: 500;
+	transition: 0.3s;
+}
+
+.menu-bar .navbar-toggler {
+	outline: none !important;
+	border: none !important;
+}
+
+.nav-link:hover{
+	background-color: #a23333;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 20px;
+	text-shadow: none !important;
+	opacity: 1.0 !important;
+}
+
+/* End of Navbar */
+
+/* Home */
+
+#home{
+background-image: linear-gradient(#ae4d4d, #8b0000);
+}
+
+#home .jumbotron{
+	text-shadow: 4px 4px 6px black;
+	background-image: linear-gradient(#8B0000, #380000);
+	box-shadow: 10px 10px 5px;
+	border-radius: 20px;
+	color: white;
+	margin-top: 150px;
+}
+
+.lead {
+	letter-spacing: 15px;
+}
+
+#home .borderline {
+	margin: 0 100px;
+}
+
+#home .display-5{
+	font-weight: 2 ;
+}
+
+/* End of Home */
+
+/* About Me */
+
+#about {
+	background-color: #f3e6e6;
+}
+
+#about .intro {
+	text-shadow: 2px 2px 5px black;
+	background-image: linear-gradient(#a23333, #b96666);
+	padding-top: 80px;
+	box-shadow: 10px 10px 5px;
+	border-radius: 20px;
+	color: white;
+}
+
+#about .jayson {
+	width: 350px;
+	height: 500px;
+	box-shadow: 0px 4px 10px 0 #6e0a1e, 0 6px 20px 0 #580818;
+	border-radius:50px;
+}
+.button {
+	background-color: darkred;
+	color: gray;
+	transition: 0.5s;
+	text-align: center;
+}
+.button:hover {
+	background-color: red;
+	color: white;
+}
+
+/* End of About Me */
+
+/* Projects */
+
+#project{
+	background-color:#f3e6e6;
+}
+#project-intro {
+	text-shadow: 4px 4px 6px black;
+	width: 18rem;
+	padding: 24px 0 50px;
+	background-image: linear-gradient(#420612, #c61236 );
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px;
+	color: white;
+}
+
+#carouselExampleCaptions {
+	color: black;
+}
+
+
+/* End of Projects */
+
+/* Tools */
+#tool .tool-title {
+	text-shadow: 4px 4px 6px black;
+}
+
+#tool{
+		color: white;
+	  background-image: linear-gradient( #f3e6e6,#ae4d4d );
+}
+
+#tool-icon {
+	width: 80px;
+	transition:0.3s ;
+}
+
+#tool-icon:hover {
+	transform: scale(1.3);
+
+}
+
+#tool .program-title {
+	text-shadow: 4px 4px 6px black;
+}
+
+#programming-icon {
+	width: 80px;
+	transition:0.3s ;
+}
+
+
+#programming-icon:hover{
+	transform: scale(1.3);
+}
+
+/* End of Tools */
+
+/* Contact */
+
+#contact{
+		color: white;
+	  background-image: linear-gradient( #ae4d4d, #6e0a1e);
+	  text-shadow: 4px 4px 6px black;
+}
+
+#px-8 {
+	margin-right: ;
+}
+
+#contact .button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #febf00;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:active {
+  background-color: #991421;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  transition: none!important;
+}
+
+/* End of Contact */
+
+/* Pre-Contact */
+#precontact {
+	background-image: linear-gradient(#580818, #2c040c );
+}
+#precontact-icon {
+	width: 50px;
+	margin:0 20px;
+	filter: grayscale(100%);
+	transition:0.5s ;
+}
+
+#precontact-icon:hover {
+	transform: scale(1.3);
+	cursor: pointer;
+	filter: grayscale(0%);
+}
+#precontact .github {
+	filter: invert(100%);
+}
+
+#precontact .github:hover {
+	filter: invert(0%);
+}
+
+#true-precontact {
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+ .cellphone, .gmail {
+	letter-spacing: 2px;
+}
+
+@media  screen (max-width: 768px) {
+	#true-precontact {
+		text-align: center;
+	}
+
+	.cellphone, .gmail {
+		text-align: center;
+	}
+}
+
+/* End of Pre-Contact */
+
+span{
+	letter-spacing: 10px;
+	margin: 0 10px;
+	color: white;
+}
+
+/* Scrollbar */
+html {
+	scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkred; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dc143c; 
+}
+/* End of Scrollbar */
+
