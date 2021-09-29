@@ -13,7 +13,7 @@ section{
 
 /* navbar */
 .menu-bar .navbar {
-	background-color: #8b0000;
+	background-image: linear-gradient(#8B0000, #380000);
 }
 .nav-link {
 	text-shadow: 2px 2px black !important;
@@ -47,7 +47,7 @@ background-image: linear-gradient(#ae4d4d, #8b0000);
 }
 
 #home .jumbotron{
-	text-shadow: 4px 4px 6px black;
+	text-shadow: 2px 2px 6px black;
 	background-image: linear-gradient(#8B0000, #380000);
 	box-shadow: 10px 10px 5px;
 	border-radius: 20px;
@@ -78,7 +78,7 @@ background-image: linear-gradient(#ae4d4d, #8b0000);
 #about .intro {
 	text-shadow: 2px 2px 5px black;
 	background-image: linear-gradient(#a23333, #b96666);
-	padding-top: 80px;
+	padding-top: 35px;
 	box-shadow: 10px 10px 5px;
 	border-radius: 20px;
 	color: white;
@@ -90,11 +90,14 @@ background-image: linear-gradient(#ae4d4d, #8b0000);
 	box-shadow: 0px 4px 10px 0 #6e0a1e, 0 6px 20px 0 #580818;
 	border-radius:50px;
 }
+
+
 .button {
 	background-color: darkred;
 	color: gray;
 	transition: 0.5s;
-	text-align: center;
+	margin: 0 45%;
+	width: auto;
 }
 .button:hover {
 	background-color: red;
@@ -118,8 +121,8 @@ background-image: linear-gradient(#ae4d4d, #8b0000);
 	color: white;
 }
 
-#carouselExampleCaptions {
-	color: black;
+.bg-project {
+	background-image: linear-gradient(#a23333, #b96666);
 }
 
 
@@ -136,6 +139,8 @@ background-image: linear-gradient(#ae4d4d, #8b0000);
 }
 
 #tool-icon {
+	margin-bottom: 30px;
+	margin-top: 20px;
 	width: 80px;
 	transition:0.3s ;
 }
@@ -181,8 +186,8 @@ background-image: linear-gradient(#ae4d4d, #8b0000);
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: black;
-  background-color: #febf00;
+  color: white;
+  background-image: linear-gradient(#580818, #2c040c );
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -253,20 +258,20 @@ html {
 	scroll-behavior: smooth;
 }
 
-/* width */
-::-webkit-scrollbar {
+ /* width */
+/* ::-webkit-scrollbar {
   width: 20px;
-}
+} */
  
 /* Handle */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: darkred; 
   border-radius: 5px;
-}
+} */
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background: #dc143c; 
-}
-/* End of Scrollbar */
+} */
+/* End of Scrollbar */  
 
