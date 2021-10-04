@@ -111,20 +111,18 @@ background-image: linear-gradient(#ae4d4d, #8b0000);
 #project{
 	background-color:#f3e6e6;
 }
-#project-intro {
+.single-box {
 	text-shadow: 4px 4px 6px black;
-	width: 18rem;
-	padding: 24px 0 50px;
-	background-image: linear-gradient(#420612, #c61236 );
-	border-radius: 20px;
-	box-shadow: 10px 10px 5px;
 	color: white;
 }
 
-.bg-project {
+.projectCard {
 	background-image: linear-gradient(#a23333, #b96666);
 }
 
+.img-area {
+	padding:20px;
+}
 
 /* End of Projects */
 
