@@ -96,7 +96,8 @@ background-image: linear-gradient(#ae4d4d, #8b0000);
 	background-color: darkred;
 	color: gray;
 	transition: 0.5s;
-	margin: 0 45%;
+	padding:10px;
+	margin: 0 40%;
 	width: auto;
 }
 .button:hover {
